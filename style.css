@@ -1,0 +1,46 @@
+*
+{
+    /* outline: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    font-size: 14px; /* Standart wäre 16px, ohne Einstellung*/
+   
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(30, 38%, 92%);
+}
+
+/* responsitive Images*/
+img
+{
+    width: 100%;
+}
+
+.design{
+    position: absolute;
+    z-index: -1;
+    opacity: 70%;
+    width: 375px;
+}
+
+.card{
+    width: 350px;
+    background-color: white;
+}
+
+.card-body{
+    padding:30px;
+}
+
+h2{
+    font-family: "Fraunces", sans-serif;
+}
