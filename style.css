@@ -53,6 +53,12 @@ img {
 .product-type {
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.product-description{
+    line-height: 1.5em;
+    font-weight: 500;
 }
 
 .price-old{
@@ -74,5 +80,12 @@ img {
 
 .button-buy{
     color: white;
-    background-color: hsl(158, 42%, 18%);
+    background-color: hsl(158, 42%, 37%);
+    height: 3em; /*1em 16px*/
+    border-color: hsl(158, 42%, 37%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
 }
