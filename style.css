@@ -96,3 +96,26 @@ img {
 .button-buy:active{
     background-color: hsl(158, 42%, 18%);
 }
+
+.desktop-image{
+    display: none;
+}
+.mobile-image{
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .card{
+        display: flex;
+        width: 600px;
+        /* overflow:visible; */
+    }
+    
+    .mobile-image{
+        display:none;
+    }
+    .desktop-image{
+    display: block;
+    width: 50%;
+    }
+}
